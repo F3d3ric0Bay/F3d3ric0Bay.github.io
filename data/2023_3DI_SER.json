@@ -1,14 +1,14 @@
 {
   "lessons": [
     {
-      "date": "12/09/2023",
+      "date": "23/09/2023",
       "title": "Lezione 1",
       "text": "1.html",
       "text_made_by": "Federico Bay",
       "questions": "1_questions.json"
     },
     {
-      "date": "15/09/2023",
+      "date": "26/09/2023",
       "title": "Lezione 2",
       "text": "2.html",
       "text_made_by": "Federico Bay",
@@ -16,11 +16,19 @@
     }
     ,
     {
-      "date": "10/10/2023",
+      "date": "07/10/2023",
       "title": "Lezione 3",
       "text": "3.html",
       "text_made_by": "Federico Bay",
       "questions": "3_questions.json"
+    }
+    ,
+    {
+      "date": "10/10/2023",
+      "title": "Lezione 4",
+      "text": "4.html",
+      "text_made_by": "Federico Bay",
+      "questions": "4_questions.json"
     }
   ]
 }  

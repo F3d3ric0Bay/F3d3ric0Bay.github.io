@@ -1,5 +1,51 @@
 <h1>SER lezione 4</h1>
 <p>
-    Modalita di trasmissione e tipi di comunicazione
-    
+    Modalita di trasmissione e tipi di commutazione 
+
+    MODALITA DI TRASMISSIONE 
+
+    SIMPLEX
+    La modalità Simplex è il tipo di comunicazione più sempice. In questa modalità, i dati possono viaggiare solo in una direzione, da un trasmettitore a un ricevitore. 
+    Questo significa che il dispositivo che invia i dati non può ricevere dati, e il dispositivo che riceve i dati non può inviarli.
+    Esempio la radio.
+
+    HALF-DUPLEX
+    La modalità Half-Duplex permette la trasmissione di dati in entrambe le direzioni, ma non contemporaneamente. 
+    In questo tipo di comunicazione, un dispositivo può inviare o ricevere dati in un determinato momento, ma non entrambi contemporaneamente.
+    Esempio il walkie-talkie
+
+    FULL-DUPLEX
+    La modalità Full-Duplex permette la comunicazione bidirezionale simultanea tra due dispositivi. 
+    Ciò significa che entrambi i dispositivi possono trasmettere e ricevere dati contemporaneamente, rendendo il processo di comunicazione più fluido e efficiente.
+    Esempio il telefono
+
+    Per coversazioni e iterazioni bidirezionali si unasno l'half e il full duplex 
+
+    TIPI DI COMUMUZIONE
+
+    COMMUTAZIONE A CIRCUITO
+    La commutazione di circuito è una tecnica di trasmissione che stabilisce un percorso fisso, o circuito, tra due nodi per la durata della comunicazione.
+    Ottimo per comunicare in tempo reale, dove è importante mantenere una connesione costante e di qualità. 
+
+    Vantaggi e Svantaggi della Commutazione di Circuito
+    I vantaggi della commutazione di circuito includono la garanzia di una banda costante e l'assenza di ritardo variabile durante la comunicazione. 
+    Tuttavia, lo svantaggio principale è l'inefficienza nella gestione delle risorse, poiché il circuito rimane inattivo ma occupato durante i momenti di silenzio nella comunicazione.
+
+    COMMUTAZIONE A PACCHETTO
+
+    La commutazione di pacchetto, al contrario, divide i dati in piccoli pacchetti che vengono trasmessi separatamente attraverso la rete e possono seguire percorsi diversi per raggiungere la destinazione, dove vengono riassemblati.
+
+    Vantaggi e Svantaggi della Commutazione di Pacchetto
+    I vantaggi della commutazione di pacchetto includono l'efficienza nella gestione delle risorse di rete e la capacità di gestire elevati volumi di dati. 
+    Tuttavia, può introdurre variazioni nel ritardo (jitter) e non garantisce una banda costante, il che può essere problematico per alcune applicazioni in tempo reale come le videochiamate.
+
+    RETE A CIRCUITO VERTICALE
+    Al contrario, nella rete a circuito virtuale, i protocolli di livello Rete offrono un servizio orientato alla connessione. 
+    Un esempio di questo tipo di rete è la rete MPLS (MultiProtocol Label Switching), che è spesso utilizzata per creare reti VPN con percorsi fissi su una rete IP tra più filiali e data center. In questo caso, prima che la comunicazione inizi, viene stabilito un percorso o "circuito" attraverso la rete che tutti i pacchetti seguiranno.
+
+    Vantaggi e Svantaggi della Rete a Circuito Verticale
+    Questo permette una maggiore prevedibilità e affidabilità nella trasmissione dei dati, poiché può essere garantita una certa quantità di banda e i pacchetti arriveranno alla destinazione nell'ordine corretto. 
+    Tuttavia, questo approccio può essere meno flessibile e resiliente rispetto alla rete a datagramma, in quanto un guasto lungo il percorso prestabilito può interrompere la comunicazione.
+
+    In conclusione, la commutazione di circuito e la commutazione di pacchetto sono due metodologie di trasmissione dati fondamentali nelle reti di comunicazione.
 </p>
